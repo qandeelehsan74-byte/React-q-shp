@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ProductCard from "../component/productcard";
-import products from "../data/products";
+import products from "../data/product";
 
 function Home({ addToCart }) {
   const [search, setSearch] = useState("");
